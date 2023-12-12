@@ -1,0 +1,466 @@
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"platformName":"Android","browserName":"Chrome","appium:deviceName":"emulator-5554","appium:platformVersion":"10.0","appium:automationName":"UiAutomator2"},"firstMatch":[{}]},"desiredCapabilities":{"platformName":"Android","browserName":"Chrome","appium:deviceName":"emulator-5554","appium:platformVersion":"10.0","appium:automationName":"UiAutomator2"}}[39m
+[38;5;16m[AppiumDriver@40e0][0m Calling AppiumDriver.createSession() with args: [{"platformName":"Android","browserName":"Chrome","appium:deviceName":"emulator-5554","appium:platformVersion":"10.0","appium:automationName":"UiAutomator2"},null,{"alwaysMatch":{"platformName":"Android","browserName":"Chrome","appium:deviceName":"emulator-5554","appium:platformVersion":"10.0","appium:automationName":"UiAutomator2"},"firstMatch":[{}]}]
+[38;5;16m[AppiumDriver@40e0][0m Event 'newSessionRequested' logged at 1702399610830 (13:46:50 GMT-0300 (Argentina Standard Time))
+[35m[Appium][39m Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+[35m[Appium][39m The 'uiautomator2' driver was installed and matched caps.
+[35m[Appium][39m Will require it at D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver
+[35m[Appium][39m Requiring driver at D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver
+[38;5;16m[AppiumDriver@40e0][0m Appium v2.2.3 creating new AndroidUiautomator2Driver (v2.34.2) session
+[38;5;16m[AppiumDriver@40e0][0m Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+[38;5;16m[AppiumDriver@40e0][0m Appium's BaseDriver version is 9.4.3
+[38;5;16m[AppiumDriver@40e0][0m AndroidUiautomator2Driver's BaseDriver version is 9.4.2
+[38;5;16m[AppiumDriver@40e0][0m Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[38;5;16m[AppiumDriver@40e0][0m Explicitly enabling use of insecure features:
+[38;5;16m[AppiumDriver@40e0][0m     ["chromedriver_autodownload"]
+[38;5;32m[AndroidUiautomator2Driver@c413][0m Creating session with W3C capabilities: {
+[38;5;32m[AndroidUiautomator2Driver@c413][0m   "alwaysMatch": {
+[38;5;32m[AndroidUiautomator2Driver@c413][0m     "platformName": "Android",
+[38;5;32m[AndroidUiautomator2Driver@c413][0m     "browserName": "Chrome",
+[38;5;32m[AndroidUiautomator2Driver@c413][0m     "appium:deviceName": "emulator-5554",
+[38;5;32m[AndroidUiautomator2Driver@c413][0m     "appium:platformVersion": "10.0",
+[38;5;32m[AndroidUiautomator2Driver@c413][0m     "appium:automationName": "UiAutomator2"
+[38;5;32m[AndroidUiautomator2Driver@c413][0m   },
+[38;5;32m[AndroidUiautomator2Driver@c413][0m   "firstMatch": [
+[38;5;32m[AndroidUiautomator2Driver@c413][0m     {}
+[38;5;32m[AndroidUiautomator2Driver@c413][0m   ]
+[38;5;32m[AndroidUiautomator2Driver@c413][0m }
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Session created with session id: 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m We're going to run a Chrome-based session
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Chrome-type package and activity are com.android.chrome and com.google.android.apps.chrome.Main
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Starting 'com.android.chrome' directly on the device
+[38;5;48m[ADB][0m Found 2 'build-tools' folders under 'C:\Users\alvar\AppData\Local\Android\Sdk' (newest first):
+[38;5;48m[ADB][0m     C:\Users\alvar\AppData\Local\Android\Sdk\build-tools\34.0.0
+[38;5;48m[ADB][0m     C:\Users\alvar\AppData\Local\Android\Sdk\build-tools\33.0.1
+[38;5;48m[ADB][0m Using 'adb.exe' from 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;64m[AndroidDriver][0m Retrieving device list
+[38;5;48m[ADB][0m Trying to find connected Android devices
+[38;5;48m[ADB][0m Getting connected devices
+[38;5;48m[ADB][0m Connected devices: [{"udid":"emulator-5554","state":"device"}]
+[38;5;64m[AndroidDriver][0m Looking for a device with Android '10.0.0'
+[38;5;48m[ADB][0m Setting device id to emulator-5554
+[38;5;48m[ADB][0m Getting device platform version
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[38;5;48m[ADB][0m Current device property 'ro.build.version.release': 10
+[38;5;64m[AndroidDriver][0m Using device: emulator-5554
+[38;5;48m[ADB][0m Using 'adb.exe' from 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 start-server'
+[38;5;48m[ADB][0m Setting device id to emulator-5554
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.sdk'
+[38;5;48m[ADB][0m Current device property 'ro.build.version.sdk': 29
+[38;5;48m[ADB][0m Getting device platform version
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell getprop ro.build.version.release'
+[38;5;48m[ADB][0m Current device property 'ro.build.version.release': 10
+[38;5;48m[ADB][0m Device API level: 29
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Relaxing hidden api policy
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+[38;5;64m[AndroidDriver][0m No app sent in, not parsing package/activity
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 wait-for-device'
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell echo ping'
+[38;5;64m[AndroidDriver][0m Pushing settings apk to device...
+[38;5;48m[ADB][0m Getting package info for 'io.appium.settings'
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.settings'
+[38;5;48m[ADB][0m The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('5.2.0' >= '5.2.0')
+[38;5;48m[ADB][0m There is no need to install/upgrade 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[38;5;48m[ADB][0m Getting IDs of all 'io.appium.settings' processes
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'pgrep --help; echo $?''
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pgrep -f \(\[\[:blank:\]\]\|\^\)io\.appium\.settings\(\[\[:blank:\]\]\|\$\)'
+[38;5;64m[AndroidDriver][0m io.appium.settings is already running. There is no need to reset its permissions.
+[38;5;80m[Logcat][0m Starting logs capture with command: C:\\Users\\alvar\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 logcat -v threadtime
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Forwarding UiAutomator2 Server port 6790 to local port 8200
+[38;5;48m[ADB][0m Forwarding system: 8200 to device: 6790
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward tcp:8200 tcp:6790'
+[38;5;48m[ADB][0m Checking app cert for D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.16.apk
+[38;5;48m[ADB][0m Checking app cert for D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;48m[ADB][0m Using 'apksigner.jar' from 'C:\Users\alvar\AppData\Local\Android\Sdk\build-tools\34.0.0\lib\apksigner.jar'
+[38;5;48m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-17\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\alvar\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs D:\\challenge\\challenge-bds\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk
+[38;5;48m[ADB][0m Starting apksigner: 'C:\\Program Files\\Java\\jdk-17\\bin\\java.exe' -Xmx1024M -Xss1m -jar C:\\Users\\alvar\\AppData\\Local\\Android\\Sdk\\build-tools\\34.0.0\\lib\\apksigner.jar verify --print-certs D:\\challenge\\challenge-bds\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.16.apk
+[38;5;48m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[38;5;48m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[38;5;48m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[38;5;48m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;48m[ADB][0m 
+[38;5;48m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;48m[ADB][0m 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[38;5;48m[ADB][0m Getting install status for io.appium.uiautomator2.server.test
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path io.appium.uiautomator2.server.test'
+[38;5;48m[ADB][0m 'io.appium.uiautomator2.server.test' is installed
+[38;5;48m[ADB][0m apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[38;5;48m[ADB][0m Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[38;5;48m[ADB][0m Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[38;5;48m[ADB][0m Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[38;5;48m[ADB][0m 
+[38;5;48m[ADB][0m sha256 hash did match for 'appium-uiautomator2-server-v5.12.16.apk'
+[38;5;48m[ADB][0m 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.16.apk' is signed with the default certificate
+[38;5;48m[ADB][0m Getting package info for 'io.appium.uiautomator2.server'
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package io.appium.uiautomator2.server'
+[38;5;48m[ADB][0m The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('5.12.16' >= '5.12.16')
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Server packages status: [{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"D:\\challenge\\challenge-bds\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v5.12.16.apk","appId":"io.appium.uiautomator2.server"},{"wasSigned":true,"installState":"sameVersionInstalled","appPath":"D:\\challenge\\challenge-bds\\node_modules\\appium-uiautomator2-driver\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Server packages are not going to be (re)installed
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Waiting up to 30000ms for services to be available
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm list instrumentation'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[38;5;48m[ADB][0m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[38;5;48m[ADB][0m Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m No app capability. Assuming it is already on the device
+[38;5;48m[ADB][0m Getting install status for com.android.chrome
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm path com.android.chrome'
+[38;5;48m[ADB][0m 'com.android.chrome' is installed
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop com.android.chrome'
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell pm clear com.android.chrome'
+[38;5;64m[AndroidDriver][0m Performed fast reset on the installed 'com.android.chrome' application (stop and clear)
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Performing shallow cleanup of automation leftovers
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m No obsolete sessions have been detected (socket hang up)
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell am force-stop io.appium.uiautomator2.server.test'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Starting UIAutomator2 server 5.12.16
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Using UIAutomator2 server from 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v5.12.16.apk' and test from 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Waiting up to 30000ms for UiAutomator2 to be online...
+[38;5;48m[ADB][0m Creating ADB subprocess with args: ["-P","5037","-s","emulator-5554","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m socket hang up
+[38;5;96m[Instrumentation][0m io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m socket hang up
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Matched '/status' to command name 'getStatus'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m The initialization of the instrumentation process took 2154ms
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Matched '/session' to command name 'createSession'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","browserName":"Chrome","deviceName":"emulator-5554","platformVersion":"10.0","automationName":"UiAutomator2","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","browserName":"Chrome","deviceName":"emulator-5554","platformVersion":"10.0","automationName":"UiAutomator2","appPackage":"com.android.chrome","appActivity":"com.google.android.apps.chrome.Main"},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}}}
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Got response with status 200: {"sessionId":"a03d5688-88b0-4912-a75f-bcd28f47d014","value":{"capabilities":{"firstMatch":[{"platformName":"Android","browserName":"Chrome","deviceName":"emulator-5554","platformVersion":"10.0","automationName":"UiAutomator2","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","browserName":"Chrome","deviceName":"emulator-5554","platformVersion":"10.0","automationName":"UiAutomator2","appPackage":"com.android.chrome","appActivity":"com.google.android.apps.chrome.Main"},"deviceUDID":"emulator-5554"}],"alwaysMatch":{}},"sessionId":"a03d5688-88b0-4912-a75f-bcd28f47d014"}}
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Determined the downstream protocol as 'W3C'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/a03d5688-88b0-4912-a75f-bcd28f47d014/appium/device/pixel_ratio] with no body
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/a03d5688-88b0-4912-a75f-bcd28f47d014/appium/device/system_bars] with no body
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Matched '/window/current/size' to command name 'getWindowSize'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/a03d5688-88b0-4912-a75f-bcd28f47d014/window/current/size] with no body
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/a03d5688-88b0-4912-a75f-bcd28f47d014/appium/device/info] with no body
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys window'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Got response with status 200: {"sessionId":"a03d5688-88b0-4912-a75f-bcd28f47d014","value":2.625}
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Got response with status 200: {"sessionId":"a03d5688-88b0-4912-a75f-bcd28f47d014","value":{"statusBar":63}}
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Got response with status 200: {"sessionId":"a03d5688-88b0-4912-a75f-bcd28f47d014","value":{"height":2274,"width":1080}}
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Got response with status 200: {"sessionId":"a03d5688-88b0-4912-a75f-bcd28f47d014","value":{"androidId":"4efd6fefb85b3525","apiVersion":"29","bluetooth":null,"brand":"google","carrierName":"Android","displayDensity":420,"locale":"en_US","manufacturer":"Google","model":"Android SDK built for x86","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":102400,"linkUpstreamBandwidthKbps":51200,"networkCapabilities":"NET_CAPABILITY_MMS,NET_CAPABILITY_SUPL,NET_CAPABILITY_DUN,NET_CAPABILITY_FOTA,NET_CAPABILITY_IMS,NET_CAPABILITY_CBS,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_CELLULAR"},"detailedState":"CONNECTED","extraInfo":"epc.tmobile.com","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":13,"subtypeName":"LTE","type":0,"typeName":"MOBILE"},{"capabilities"...
+[38;5;64m[AndroidDriver][0m Screen already unlocked, doing nothing
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Starting a chrome-based browser session
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m A port was not given, using random free port: 51880
+[38;5;64m[AndroidDriver][0m Precalculated Chromedriver capabilities: {
+[38;5;64m[AndroidDriver][0m   "androidPackage": "com.android.chrome",
+[38;5;64m[AndroidDriver][0m   "androidDeviceSerial": "emulator-5554"
+[38;5;64m[AndroidDriver][0m }
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Before starting chromedriver, androidPackage is 'com.android.chrome'
+[38;5;112m[Chromedriver@c479][0m Changed state to 'starting'
+[38;5;112m[Chromedriver@c479][0m Using the static Chromedriver->Chrome mapping
+[38;5;112m[Chromedriver@c479][0m The most recent known Chrome version: 119.0.6045
+[38;5;112m[Chromedriver@c479][0m Found 1 executable in 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win'
+[38;5;112m[Chromedriver@c479][0m The following Chromedriver executables were found:
+[38;5;112m[Chromedriver@c479][0m     'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win\chromedriver-win64_v119.0.6045.105.exe' (version '119.0.6045.105', minimum Chrome version '119.0.6045')
+[38;5;48m[ADB][0m Getting package info for 'com.android.chrome'
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.android.chrome'
+[38;5;112m[Chromedriver@c479][0m Found Chrome bundle 'com.android.chrome' version '74.0.3729'
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m Parsed 776 entries from storage XML
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.0/chromedriver_linux32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.0/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.0/chromedriver_mac32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.0/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.1/chromedriver_linux32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.1/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.1/chromedriver_mac32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.1/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.17/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.17/chromedriver_mac32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.17/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.2/chromedriver_linux32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.2/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.2/chromedriver_mac32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '2.2/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The driver '2.3/chromedriver_win32.zip' does not contain valid release notes at https://chromedriver.storage.googleapis.com/2.3/notes.txt. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The driver '2.3/chromedriver_mac32.zip' does not contain valid release notes at https://chromedriver.storage.googleapis.com/2.3/notes.txt. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The driver '2.3/chromedriver_linux64.zip' does not contain valid release notes at https://chromedriver.storage.googleapis.com/2.3/notes.txt. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The driver '2.3/chromedriver_linux32.zip' does not contain valid release notes at https://chromedriver.storage.googleapis.com/2.3/notes.txt. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '70.0.3538.16/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '70.0.3538.16/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '70.0.3538.16/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '70.0.3538.67/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '70.0.3538.67/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '70.0.3538.67/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '70.0.3538.97/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '70.0.3538.97/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '70.0.3538.97/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.137/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.137/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.137/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.30/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.30/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.30/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.33/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.33/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.33/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.80/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.80/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '71.0.3578.80/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '72.0.3626.69/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '72.0.3626.69/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '72.0.3626.69/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '72.0.3626.7/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '72.0.3626.7/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '72.0.3626.7/chromedriver_win32.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '87.0.4280.87/chromedriver_linux64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The entry '87.0.4280.87/chromedriver_mac64.zip' does not contain any notes. Skipping it
+[38;5;128m[ChromedriverGoogleapisStorageClient][0m The total count of entries in the mapping: 546
+[38;5;144m[ChromedriverChromelabsStorageClient][0m The total count of entries in the mapping: 1800
+[38;5;112m[Chromedriver@c479][0m Got chromedrivers mapping from the storage: {
+[38;5;112m[Chromedriver@c479][0m   "100.0.4896.20/chromedriver_linux64.zip": {
+[38;5;112m[Chromedriver@c479][0m     "url": "https://chromedriver.storage.googleapis.com/100.0.4896.20/chromedriver_linux64.zip",
+[38;5;112m[Chromedriver@c479][0m     "etag": "d7604df0340573318e05672c2d7efaee",
+[38;5;112m[Chromedriver@c479][0m     "version": "100.0.4896.20",
+[38;5;112m[Chromedriver@c479][0m     "minBrowserVersion": "100",
+[38;5;112m[Chromedriver@c479][0m     "os": {
+[38;5;112m[Chromedriver@c479][0m       "name": "linux",
+[38;5;112m[Chromedriver@c479][0m       "arch": "64",
+[38;5;112m[Chromedriver@c479][0m       "cpu": "intel"
+[38;5;112m[Chromedriver@c479][0m     }
+[38;5;112m[Chromedriver@c479][0m   },
+[38;5;112m[Chromedriver@c479][0m   "100.0.4896.20/chromedriver_mac64.zip": {
+[38;5;112m[Chromedriver@c479][0m     "url": "https://chromedriver.storage.googleapis.com/100.0.4896.20/chromedriver_mac64.zip",
+[38;5;112m[Chromedriver@c479][0m     "etag": "5...
+[38;5;160m[ChromedriverStorageClient][0m Selecting chromedrivers whose minimum supported browser version matches to 74
+[38;5;160m[ChromedriverStorageClient][0m Got 3 items
+[38;5;160m[ChromedriverStorageClient][0m Will select candidate drivers versioned as '74.0.3729.6'
+[38;5;160m[ChromedriverStorageClient][0m Selecting chromedrivers whose platform matches to win:intel64
+[38;5;160m[ChromedriverStorageClient][0m Got 1 item
+[38;5;160m[ChromedriverStorageClient][0m Excluding older patches if present
+[38;5;160m[ChromedriverStorageClient][0m Versions mapping: {
+[38;5;160m[ChromedriverStorageClient][0m   "74": [
+[38;5;160m[ChromedriverStorageClient][0m     "74.0.3729.6"
+[38;5;160m[ChromedriverStorageClient][0m   ]
+[38;5;160m[ChromedriverStorageClient][0m }
+[38;5;160m[ChromedriverStorageClient][0m Got 1 driver to sync: [
+[38;5;160m[ChromedriverStorageClient][0m   "74.0.3729.6/chromedriver_win32.zip"
+[38;5;160m[ChromedriverStorageClient][0m ]
+[38;5;160m[ChromedriverStorageClient][0m Retrieving 'https://chromedriver.storage.googleapis.com/74.0.3729.6/chromedriver_win32.zip' to 'C:\Users\alvar\AppData\Local\Temp\20231112-19736-1ybq9jd.r48u\0.zip'
+[38;5;176m[Support][0m Traversed 1 directory and 1 file in 1ms
+[38;5;160m[ChromedriverStorageClient][0m Moving the extracted 'chromedriver.exe' to 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win\chromedriver_win32_v74.0.3729.6.exe'
+[38;5;160m[ChromedriverStorageClient][0m Permissions of the file 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win\chromedriver_win32_v74.0.3729.6.exe' have been changed to 755
+[38;5;160m[ChromedriverStorageClient][0m Successfully synchronized 1 chromedriver
+[38;5;112m[Chromedriver@c479][0m No mapping path provided
+[38;5;112m[Chromedriver@c479][0m Found 2 executables in 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win'
+[38;5;112m[Chromedriver@c479][0m The following Chromedriver executables were found:
+[38;5;112m[Chromedriver@c479][0m     'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win\chromedriver-win64_v119.0.6045.105.exe' (version '119.0.6045.105', minimum Chrome version '119.0.6045')
+[38;5;112m[Chromedriver@c479][0m     'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win\chromedriver_win32_v74.0.3729.6.exe' (version '74.0.3729.6', minimum Chrome version '74')
+[38;5;48m[ADB][0m Getting package info for 'com.android.chrome'
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys package com.android.chrome'
+[38;5;112m[Chromedriver@c479][0m Found Chrome bundle 'com.android.chrome' version '74.0.3729'
+[38;5;112m[Chromedriver@c479][0m Found 1 executable capable of automating Chrome '74.0.3729'.
+[38;5;112m[Chromedriver@c479][0m Choosing the most recent, 'D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win\chromedriver_win32_v74.0.3729.6.exe'.
+[38;5;112m[Chromedriver@c479][0m If a specific version is required, specify it with the `chromedriverExecutable`desired capability.
+[38;5;112m[Chromedriver@c479][0m Set chromedriver binary as: D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win\chromedriver_win32_v74.0.3729.6.exe
+[38;5;112m[Chromedriver@c479][0m Killing any old chromedrivers, running: wmic process where "commandline like '%chromedriver.exe%--port=51880%'" delete
+[38;5;112m[Chromedriver@c479][0m Successfully cleaned up old chromedrivers
+[38;5;112m[Chromedriver@c479][0m Cleaning this device's adb forwarded port socket connections: emulator-5554
+[38;5;48m[ADB][0m List forwarding ports
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --list'
+[38;5;112m[Chromedriver@c479][0m Spawning chromedriver with: D:\challenge\challenge-bds\node_modules\appium-uiautomator2-driver\node_modules\appium-chromedriver\chromedriver\win\chromedriver_win32_v74.0.3729.6.exe --port=51880 --adb-port=5037 --verbose
+[38;5;112m[Chromedriver@c479][0m ChromeDriver version: '74.0.3729.6'
+[38;5;112m[Chromedriver@c479][0m The WebDriver v. 74.0.3729.6 does not fully support W3C protocol. Defaulting to MJSONWP
+[38;5;112m[Chromedriver@c479][0m Matched '/status' to command name 'getStatus'
+[38;5;112m[Chromedriver@c479][0m Proxying [GET /status] to [GET http://127.0.0.1:51880/status] with no body
+[38;5;112m[Chromedriver@c479][0m connect ECONNREFUSED 127.0.0.1:51880
+[38;5;112m[Chromedriver@c479][0m Matched '/status' to command name 'getStatus'
+[38;5;112m[Chromedriver@c479][0m Proxying [GET /status] to [GET http://127.0.0.1:51880/status] with no body
+[38;5;112m[Chromedriver@c479][0m Got response with status 200: {"sessionId":"","status":0,"value":{"build":{"version":"74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})"},"message":"ChromeDriver ready for new sessions.","os":{"arch":"x86_64","name":"Windows NT","version":"10.0.22621"},"ready":true}}
+[38;5;112m[Chromedriver@c479][0m Starting MJSONWP Chromedriver session with capabilities: {
+[38;5;112m[Chromedriver@c479][0m   "desiredCapabilities": {
+[38;5;112m[Chromedriver@c479][0m     "chromeOptions": {
+[38;5;112m[Chromedriver@c479][0m       "androidPackage": "com.android.chrome",
+[38;5;112m[Chromedriver@c479][0m       "androidDeviceSerial": "emulator-5554"
+[38;5;112m[Chromedriver@c479][0m     },
+[38;5;112m[Chromedriver@c479][0m     "loggingPrefs": {
+[38;5;112m[Chromedriver@c479][0m       "browser": "ALL"
+[38;5;112m[Chromedriver@c479][0m     }
+[38;5;112m[Chromedriver@c479][0m   }
+[38;5;112m[Chromedriver@c479][0m }
+[38;5;112m[Chromedriver@c479][0m Matched '/session' to command name 'createSession'
+[38;5;112m[Chromedriver@c479][0m Proxying [POST /session] to [POST http://127.0.0.1:51880/session] with body: {"desiredCapabilities":{"chromeOptions":{"androidPackage":"com.android.chrome","androidDeviceSerial":"emulator-5554"},"loggingPrefs":{"browser":"ALL"}}}
+[38;5;112m[Chromedriver@c479][0m Webview version: 'Chrome/74.0.3729.185'
+[38;5;112m[Chromedriver@c479][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29})"},"cssSelectorsEnabled":true,"databaseEnabled":false,"goog:chromeOptions":{"debuggerAddress":"localhost:51919"},"handlesAlerts":true,"hasTouchScreen":true,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"pageLoadStrategy":"normal","platform":"ANDROID","proxy":{},"rotatable":false,"setWindowRect":false,"strictFileInteractability":false,"takesHeapSnapshot":true,"takesScreenshot":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unexpectedAlertBehaviour":"ignore","version":"74.0.3729.185","webStorageEnabled":true}}
+[38;5;112m[Chromedriver@c479][0m Determined the downstream protocol as 'MJSONWP'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Changed state to 'online'
+[38;5;16m[AppiumDriver@40e0][0m New AndroidUiautomator2Driver session created successfully, session 98a75310-6b18-4d75-b40b-3655ae9b88aa added to master session list
+[38;5;16m[AppiumDriver@40e0][0m Event 'newSessionStarted' logged at 1702399640763 (13:47:20 GMT-0300 (Argentina Standard Time))
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Cached the protocol value 'W3C' for the new session 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","browserName":"Chrome","deviceName":"emulator-5554","platformVersion":"10","automationName":"UiAutomator2","platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","browserName":"Chrome","deviceName":"emulator-5554","platformVersion":"10.0","automationName":"UiAutomator2","appPackage":"com.android.chrome","appActivity":"com.google.android.apps.chrome.Main"},"deviceUDID":"emulator-5554","pixelRatio":"2.625","statBarHeight":63,"viewportRect":{"left":0,"top":63,"width":1080,"height":2211},"deviceApiLevel":29,"deviceManufacturer":"Google","deviceModel":"Android SDK built for x86","deviceScreenSize":"1080x2400","deviceScreenDensity":420}}
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m29937 ms - 917[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":"input[id=\"kw\"]"}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element' to command name 'findElement'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element] with body: {"using":"css selector","value":"input[id=\"kw\"]"}
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/url[39m
+[38;5;0m[HTTP][0m [90m{"url":"https://ebay.com/"}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":7,"value":{"message":"no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"input[id=\"kw\"]\"}\n  (Session info: chrome=74.0.3729.185)\n  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.22621 x86_64)"}}
+[38;5;192m[MJSONWP][0m Matched JSONWP error code 7 to NoSuchElementError
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element [39m[33m404[39m [90m104 ms - 1460[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/url' to command name 'setUrl'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/url] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/url] with body: {"url":"https://ebay.com/"}
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":"input[id=\"kw\"]"}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":null}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/url [39m[32m200[39m [90m2625 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element' to command name 'findElement'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element] with body: {"using":"css selector","value":"input[id=\"kw\"]"}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":{"ELEMENT":"0.7602145446349582-1"}}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element [39m[32m200[39m [90m2640 ms - 156[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/execute/sync[39m
+[38;5;0m[HTTP][0m [90m{"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMENT_NODE:\n            case Node.DOCUMENT_NODE:\n            case Node.DOCUMENT_FRAGMENT_NODE:\n                return true;\n            default:\n                return false;\n        }\n    }\n    function parentElementForElement(element) {\n        if (!element) {\n            return null;\n        }\n        return enclosingNodeOrSelfMatchingPredicate(element.parentNode, nodeIsElement);\n    }\n    function enclosingNodeOrSelfMatchingPredicate(targetNode, predicate) {\n        for (let node = targetNode; node && node !== targetNode.ownerDocument; node = node.parentNode) {\n            if (predicate(node)) {\n                return node;\n            }\n        }\n        return null;\n    }\n    function enclosingElementOrSelfMatchingPredicate(targetElement, predicate) {\n        for (let ...[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Calling AppiumDriver.execute() with args: ["return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMENT_NODE:\n            case Node.DOCUMENT_NODE:\n            case Node.DOCUMENT_FRAGMENT_NODE:\n                return true;\n            default:\n                return false;\n        }\n    }\n    function parentElementForElement(element) {\n        if (!element) {\n            return null;\n        }\n        return enclosingNodeOrSelfMatchingPredicate(element.parentNode, nodeIsElement);\n    }\n    function enclosingNodeOrSelfMatchingPredicate(targetNode, predicate) {\n        for (let node = targetNode; node && node !== targetNode.ownerDocument; node = node.parentNode) {\n            if (predicate(node)) {\n                return node;\n            }\n        }\n        return null;\n    }\n    function enclosingElementOrSelfMatchingPredicate(targetElement, predicate) {\n        for (let element =...
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/execute' to command name 'execute'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Did not know how to rewrite the original URL '/execute' for MJSONWP protocol
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /execute] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/execute] with body: {"script":"return (function isElementDisplayed(element) {\n    function nodeIsElement(node) {\n        if (!node) {\n            return false;\n        }\n        switch (node.nodeType) {\n            case Node.ELEMENT_NODE:\n            case Node.DOCUMENT_NODE:\n            case Node.DOCUMENT_FRAGMENT_NODE:\n                return true;\n            default:\n                return false;\n        }\n    }\n    function parentElementForElement(element) {\n        if (!element) {\n            return null;\n        }\n        return enclosingNodeOrSelfMatchingPredicate(element.parentNode, nodeIsElement);\n    }\n    function enclosingNodeOrSelfMatchingPredicate(targetNode, predicate) {\n        for (let node = targetNode; node && node !== targetNode.ownerDocument; node = node.parentNode) {\n            if (predicate(node)) {\n                return node;\n            }\n        }\n        return null;\n    }\n    function enclosingElementOrSelfMatchingPredicate(targetElement, predicate) {\n        for (let ...
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":true}
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Responding to client with driver.execute() result: true
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/execute/sync [39m[32m200[39m [90m83 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":"input[id=\"kw\"]"}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element' to command name 'findElement'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element] with body: {"using":"css selector","value":"input[id=\"kw\"]"}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":{"ELEMENT":"0.7602145446349582-1"}}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element [39m[32m200[39m [90m40 ms - 156[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/click' to command name 'click'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/click] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element/0.7602145446349582-1/click] with body: {}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":null}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/click [39m[32m200[39m [90m134 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":"input[id=\"kw\"]"}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element' to command name 'findElement'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element] with body: {"using":"css selector","value":"input[id=\"kw\"]"}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":{"ELEMENT":"0.7602145446349582-1"}}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element [39m[32m200[39m [90m24 ms - 156[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/clear[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/clear' to command name 'clear'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/clear] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element/0.7602145446349582-1/clear] with body: {}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":null}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/clear [39m[32m200[39m [90m142 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/value[39m
+[38;5;0m[HTTP][0m [90m{"text":"pilas"}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/value' to command name 'setValue'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Added 'value' property ["p","i","l","a","s"] to 'setValue' request body
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/value] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element/0.7602145446349582-1/value] with body: {"text":"pilas","value":["p","i","l","a","s"]}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":null}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-1/value [39m[32m200[39m [90m163 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":"button[class=\"gh-search__submitbtn\"]"}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element' to command name 'findElement'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element] with body: {"using":"css selector","value":"button[class=\"gh-search__submitbtn\"]"}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":{"ELEMENT":"0.7602145446349582-2"}}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element [39m[32m200[39m [90m26 ms - 156[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-2/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-2/click' to command name 'click'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-2/click] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element/0.7602145446349582-2/click] with body: {}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":null}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.7602145446349582-2/click [39m[32m200[39m [90m2389 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":"h1[role=\"status\"]"}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element' to command name 'findElement'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element] with body: {"using":"css selector","value":"h1[role=\"status\"]"}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":{"ELEMENT":"0.8059829180966402-1"}}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element [39m[32m200[39m [90m99 ms - 156[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.8059829180966402-1/text[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.8059829180966402-1/text' to command name 'getText'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [GET /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.8059829180966402-1/text] to [GET http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element/0.8059829180966402-1/text] with no body
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":"4.100.000+ resultados"}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- GET /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.8059829180966402-1/text [39m[32m200[39m [90m196 ms - 84[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"css selector","value":"h1[role=\"status\"]"}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element' to command name 'findElement'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element] to [POST http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element] with body: {"using":"css selector","value":"h1[role=\"status\"]"}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":{"ELEMENT":"0.8059829180966402-1"}}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- POST /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element [39m[32m200[39m [90m1684 ms - 156[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.8059829180966402-1/text[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Driver proxy active, passing request on via HTTP proxy
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Matched '/session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.8059829180966402-1/text' to command name 'getText'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [GET /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.8059829180966402-1/text] to [GET http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644/element/0.8059829180966402-1/text] with no body
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":"4.100.000+ resultados"}
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Replacing sessionId 6d762e19c8693e10ff8e84910ac6c644 with 98a75310-6b18-4d75-b40b-3655ae9b88aa
+[38;5;0m[HTTP][0m [37m<-- GET /session/98a75310-6b18-4d75-b40b-3655ae9b88aa/element/0.8059829180966402-1/text [39m[32m200[39m [90m18 ms - 84[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/98a75310-6b18-4d75-b40b-3655ae9b88aa[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Calling AppiumDriver.deleteSession() with args: ["98a75310-6b18-4d75-b40b-3655ae9b88aa"]
+[38;5;16m[AppiumDriver@40e0][0m Event 'quitSessionRequested' logged at 1702399648666 (13:47:28 GMT-0300 (Argentina Standard Time))
+[38;5;16m[AppiumDriver@40e0][0m Removing session 98a75310-6b18-4d75-b40b-3655ae9b88aa from our master session list
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Deleting UiAutomator2 session
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Stopping chromedriver for context CHROMIUM
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Changed state to 'stopping'
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:51880/session/6d762e19c8693e10ff8e84910ac6c644] with no body
+[38;5;112m[Chromedriver@c479 (6d762e19)][0m Got response with status 200: {"sessionId":"6d762e19c8693e10ff8e84910ac6c644","status":0,"value":null}
+[38;5;112m[Chromedriver@c479][0m Changed state to 'stopped'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Deleting UiAutomator2 server session
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Matched '/' to command name 'deleteSession'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/a03d5688-88b0-4912-a75f-bcd28f47d014] with no body
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Got response with status 200: {"sessionId":"a03d5688-88b0-4912-a75f-bcd28f47d014","value":null}
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+[38;5;80m[Logcat][0m Stopping logcat capture
+[38;5;48m[ADB][0m Removing forwarded port socket connection: 8200 
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 forward --remove tcp:8200'
+[38;5;32m[AndroidUiautomator2Driver@c413 (98a75310)][0m Restoring hidden api policy to the device default configuration
+[38;5;48m[ADB][0m Running 'C:\Users\alvar\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s emulator-5554 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+[38;5;96m[Instrumentation][0m .
+[38;5;96m[Instrumentation][0m Time: 36.354
+[38;5;96m[Instrumentation][0m 
+[38;5;96m[Instrumentation][0m OK (1 test)
+[38;5;96m[Instrumentation][0m The process has exited with code 0
+[38;5;16m[AppiumDriver@40e0][0m Event 'quitSessionFinished' logged at 1702399649238 (13:47:29 GMT-0300 (Argentina Standard Time))
+[38;5;16m[AppiumDriver@40e0][0m Received response: null
+[38;5;16m[AppiumDriver@40e0][0m But deleting session, so not returning
+[38;5;16m[AppiumDriver@40e0][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/98a75310-6b18-4d75-b40b-3655ae9b88aa [39m[32m200[39m [90m573 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
